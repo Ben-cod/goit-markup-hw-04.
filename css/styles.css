@@ -132,10 +132,10 @@ img {
 .hero {
 	background: var(--important-background);
 	text-align: center;
-
+	
 	padding-top: 188px;
 	padding-bottom: 188px;
-	background-image: url(../images/people-office.jpg);
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -164,9 +164,9 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	color: #ffffff;
-	background: #4d5ae5;
+	background: #4D5AE5;
+ 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hero-but:hover,
 .hero-but:focus {
@@ -175,17 +175,40 @@ img {
 }
 
 /* Expirienc */
+
+.expirienc-list-icon {
+	
+	gap: 24px;
+	
+}
 .section {
 	padding-top: 120px;
 	padding-bottom: 132px;
+	
 }
-.expirienc-text {
-	display: flex;
+.expirienc-text{
 	gap: 24px;
+	display: flex;
 }
+.expirienc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 264px;
+	height: 112px;	
+	
+	background: #F4F4FD;
+	border-radius: 4px;
+	
+}
+
 .section-primery {
+	display: inline-block;
 	width: calc((100% - 72px) / 4);
+	
+	
 }
+
 .section-titl {
 	margin-bottom: 8px;
 
@@ -193,11 +216,15 @@ img {
 	font-size: 20px;
 	line-height: 1.2;
 	color: var(--brend-color);
+	
+	
 }
 .section-text {
+	
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--color-paragraf);
+	gap: 24px;
 }
 
 /* About */
