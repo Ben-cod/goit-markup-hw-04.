@@ -77,6 +77,7 @@ img {
 	padding-left: 15px;
 	padding-right: 15px;
 }
+
 .header-nav {
 	box-sizing: border-box;
 	border-bottom: 1px solid #e7e9fc;
@@ -102,6 +103,9 @@ img {
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--brend-color);
+}
+.address-content {
+	margin-left: auto;
 }
 .nav-address {
 	display: flex;
@@ -197,6 +201,9 @@ img {
 }
 
 /* About */
+.about-content {
+	padding-top: 0;
+}
 .section-about {
 	margin-bottom: 72px;
 
@@ -286,6 +293,10 @@ img {
 .footer-primery {
 }
 /* Portfolio */
+.portfolio-section {
+	padding-top: 96px;
+	padding-bottom: 120px;
+}
 .galery-content {
 	display: flex;
 	flex-wrap: wrap;
